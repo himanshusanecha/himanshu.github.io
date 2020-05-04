@@ -2,13 +2,16 @@
 <html>
 <head>
 	<title>color game</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
 
 </head>
 <body>
 	<h1> The GREAT <span id="display">RGB</span> COLOR GAME</h1>
-	<div>
+	<div id="strips">
+		<button id="reset">new colors</button>
 		<span id="message" align="center"></span>
+		<button id="easybtn">easy</button>
+		<button class="selected" id="hardbtn">hard</button>
 	<div id = "container">
 		<div class="square"></div>
 		<div class="square"></div>
@@ -17,8 +20,8 @@
 		<div class="square"></div>
 		<div class="square"></div>
 	</div>
-	<script type="text/javascript" src="colorgame.js"></script>
 
+<script type="text/javascript" src="colorgame.js"></script>
 
 </body>
 </html>
